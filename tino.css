@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: rgb(254, 254, 255);
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+.login-reg {
+    background: rgb(255, 253, 253);
+    text-align: center;
+    padding: 40px 40px;
+    margin: 15% 35%;
+}
+.regform {
+    background: rgb(255, 253, 253);
+    text-align: center;
+    padding: 40px 40px;
+    margin: 5% 35%;
+}
+button a:link, button {
+    color: white;
+}
+.login, .reg {
+    background: green;
+    font-size: 17px;
+    margin: 10px;
+    padding: 12px 24px;
+    border: 0.8px;
+}
+input {
+    display: block;
+    border: 0.7px solid rgb(196, 194, 194);
+    border-radius: 4px;
+    margin: 20px 10% 20px 5%;
+    padding: 8px 10px;
+    width: 280px;
+}
+.title {
+    text-align: center;
+}
+.error {
+    margin: 10px auto;
+    background: rgba(190, 115, 115, 0.897);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 300px;
+    padding: 20px 15px;
+}
+.error2 {
+    margin: 70px auto -90px auto;
+    background: rgba(223, 71, 71, 0.945);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 300px;
+    padding: 20px 15px;
+}
+
+.success {
+    max-width: 300px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 15px;
+    margin: 10px auto;
+    background: rgba(28, 158, 28, 0.932);
+    color: white;
+}
+.centerpos {
+    margin: 15% 25% 20% 39%;
+}
+.userdetails {
+    margin: 50px auto;
+    padding: 5px 0px;
+    background: white;
+    max-width: 40%;
+}
+.userdetails ul li {
+    list-style-type: none;
+    border-bottom: 1px solid rgb(221, 235, 221);
+    padding: 10px 8px;
+    margin: 0px 0px;
+}
+.nav {
+    background: black;
+    color: white;
+    font-size: 20px;
+    max-width: 100%;
+    padding: 6px 4px;
+    margin: 0px;
+}
+.rightside {
+    float: right;
+}
+
+.task {
+    background: rgb(226, 206, 206);
+    max-width: 340px;
+    margin: auto;
+    padding: 8px 10px;
+}
+.task button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 5px 7px;
+    margin-left: 20px;
+    margin-top: -15px;
+}
